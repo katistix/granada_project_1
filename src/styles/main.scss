@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #3498db; // Adjust to your preference
+    --secondary-color: #e74c3c; // Adjust to your preference
+    --font-family: "Roboto", sans-serif; // Adjust to your preference
+  }
+  
+
+
+  body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+
+
+header{
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    h1{
+      color: white;
+    }
+    a{
+        color: white;
+    }
+}
+
+
+
+  
+  .container {
+    padding: 24px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  #search-button {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #search-button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  #city-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  #weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #weather-info img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
+  #weather-info h2 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+  
+  #weather-info p {
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  
+  #weather-info p:first-child {
+    font-weight: bold;
+  }
+  
+  #error-message {
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    a{
+        color: white;
+    }
+}
